@@ -1,0 +1,4 @@
+// Gestion des versions
+#define NeuronTest_VERSION_MAJOR @NeuronTest_VERSION_MAJOR@
+#define NeuronTest_VERSION_MINOR @NeuronTest_VERSION_MINOR@
+
