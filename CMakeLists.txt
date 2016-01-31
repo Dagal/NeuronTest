@@ -35,6 +35,9 @@ configure_file (
 # Ajout du répertoire pour retrouver le fichier d'entête ci dessus
 include_directories("${PROJECT_BINARY_DIR}")
 
+# Il ne faut pas oublier d'ajouter le répertoire include à la liste
+include_directories("include")
+
 # On ajoute le nom de l'exécutable ainsi que le fichier principal
 add_executable(
 	NeuronTest
