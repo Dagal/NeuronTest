@@ -1,8 +1,12 @@
 #ifndef __SYNAPSE_HPP__
 #define __SYNAPSE_HPP__
 
+//#include "Neuron.hpp"
+
 namespace Dagal
 {
+	class Neuron;
+
 	class Synapse
 	{
 		Synapse();
@@ -16,7 +20,7 @@ namespace Dagal
 		Neuron* getDestination();
 
 		double valxpoid();
-	}
+	};
 }
 
 #endif //__SYNAPSE_HPP__

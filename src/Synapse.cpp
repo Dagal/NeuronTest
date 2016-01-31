@@ -1,3 +1,5 @@
+#include <Neuron.hpp>
+
 #include <Synapse.hpp>
 
 namespace Dagal
@@ -22,6 +24,6 @@ namespace Dagal
 
 	double Synapse::valxpoid()
 	{
-		return getSource().getValeur() * mPoid;
+		return getSource()->getValeur() * mPoid;
 	}
 }

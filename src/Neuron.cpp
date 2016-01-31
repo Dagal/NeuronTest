@@ -1,5 +1,7 @@
 #include <Neuron.hpp>
 
+using namespace Dagal;
+
 Neuron::Neuron() :
 	mValeur(0)
 {

@@ -1,10 +1,13 @@
-#ifndef __NEURON.HPP__
-#define __NEURON.HPP__
+#ifndef __NEURON_HPP__
+#define __NEURON_HPP__
 
-#include "Synapse.hpp"
+//#include "Synapse.hpp"
+#include <list>
 
 namespace Dagal
 {
+	class Synapse;
+
 	class Neuron
 	{
 		// Constructeurs
@@ -18,6 +21,7 @@ namespace Dagal
 
 		// Une sortie est nécessaire
 		double mValeur;
+		public: double getValeur() {return mValeur;};
 
 		// Il faut également calculer la somme des produits des entrées et des poids
 		double calculate();
@@ -40,4 +44,4 @@ namespace Dagal
 	};
 }
 
-#endif	//__NEURON.HPP__
+#endif	//__NEURON_HPP__
